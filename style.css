@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  background-image: url(./weather\ bg.jpg);
+  background-size: cover;
+  margin: 0;
+}
+.heading {
+  font-size: 50px;
+    letter-spacing: 2px;
+    font-family: math;
+    margin-top: 65px;
+    display: flex;
+    color: white;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+.formBox {
+  display: flex;
+  justify-content: center;
+}
+#city {
+  width: 400px;
+  border: solid 1px white;
+  float: left;
+  
+  font-family: Arial;
+  color: white;
+  padding-left: 10px;
+  outline: none;
+  background: transparent;
+  font-size: 25px;
+  border-right: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#city::placeholder {
+  color: white;
+}
+
+.btn {
+  height: 50px;
+  border: white;
+  width: 100px;
+
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  color: black;
+  font-family: revert;
+  border: solid 1px white;
+  font-size: 20px;
+}
+btn:focus {
+  outline: none;
+}
+city:focus {
+  outline: none;
+} 
+
+.loading{
+  /* background-color: rebeccapurple; */
+  justify-content: center;
+  display: flex;
+}
+
+.loadingFalse{
+  display: none;
+}
+.weatherBox{
+  margin-left: 34%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.2)50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  width: 32%;
+  color: white;
+  flex-direction: column;
+  
+}
+
+.country{
+  font-style: italic;
+  margin-top: -5px;
+  color: white;
+  font-size: 50px;
+  font-family: system-ui;
+}
+.city{
+  margin-top: -42px;
+  margin-left: 2px;
+  font-size: 25px;
+  font-style: italic;
+  font-family: monospace;
+}
+.time{
+  margin-left: 2px;
+  margin-top: -19px;
+  color: floralwhite;
+  font-family: monospace;
+  font-size: 22px;
+}
+.weatherBox img{
+  height: 250px;
+  width: 250px;
+  margin-top: -40px;
+  /* align-self: last baseline; */
+  margin-left: 40%;
+}
+.tem{
+  margin-left: 80px;
+  color: currentColor;
+  margin-top: -177px;
+  font-size: 71px;
+  font-family: math;
+}
+.wind{
+  font-family: system-ui;
+
+  color: white;
+  font-size: 30px;
+  margin-top: -5px;
+}
+.wind img {
+margin-left: 2px;
+  height: 23px;
+  width: 28px;
+}
+
+.wind span{
+  font-family: monospace;
+  font-size: 25px;
+}
+.humidity span{
+  font-size: 26px;
+    font-family: none;
+}
+.humidity{
+  font-family: system-ui;
+
+  color: white;
+  font-size: 30px;
+  margin-top: -5px;
+}
+.humidity img {
+  align-self: last baseline;
+    height: 25px;
+    width: 28px;
+    margin-left: 2px;
+  }
+  #loading h1{
+    color: white;
+  }
+  .error{
+    font-size: 40px;
+    margin: auto;
+    color: white;
+    font-family: monospace;
+    margin-left: 40%;
+    margin-top: 50px;
+  }
